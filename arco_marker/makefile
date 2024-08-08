@@ -1,0 +1,2 @@
+default:
+	g++ aruco_marker_test.cpp -o aruco_marker_test -I${OPENCV_INCLUDE_PATH} -L${OPENCV_LD_LIBRARY_PATH} -llibopencv_core -llibopencv_videoio -llibopencv_highgui -llibopencv_aruco -llibopencv_objdetect -llibopencv_calib3d
